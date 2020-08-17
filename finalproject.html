@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/finalproject.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--nav bar-->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">HOME</a></li>
+                <li><a href="">COLLECTIONS</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!--nav bar ends-->
+    <!--hero section-->
+    <section id="hero">
+
+        <div class="hero container">
+            <div class="hero-right">
+                <h1>Welcome<span></span></h1>
+                <h1>to<span></span></h1>
+                <h1>BrandName<span></span></h1>
+                <a href="#" type="button" class="cta">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <!--hero section ends-->
+    <!--collection section-->
+ <!--   <section id="collections">
+        <div class="collections container">
+
+        </div>
+
+    </section>-->
+    <!--collection section ends-->
+    <!--grid section-->
+    <h2 class="divider">COLLECTIONS</h2>
+    <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid1.jpg)"></div>
+
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/quip.png" alt="">
+                </div>
+
+                <div class="subtitle">Children's Traditional Wear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid2.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/devcamp.png" alt="">
+                </div>
+
+                <div class="subtitle">Children's Casual wear.</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid3.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/eventbrite.png" alt="">
+                </div>
+
+                <div class="subtitle">Children's Sportswear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid4.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/shop-hacker.png" alt="">
+                </div>
+
+                <div class="subtitle">Men's Traditional Wear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/img3.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/crondose.png" alt="">
+                </div>
+
+                <div class="subtitle">Men's Casual Wear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid6.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/dailysmarty.png" alt="">
+                </div>
+
+                <div class="subtitle">Men's Sportswear.</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid7.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/dashtrack.png" alt="">
+                </div>
+
+                <div class="subtitle">Women's Traditional wear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid8.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/devtrunk.png" alt="">
+                </div>
+
+                <div class="subtitle">Women's Casual wear</div>
+            </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(img/grid9.jpg)"></div>
+            <div class="img-text-wrapper">
+                <div class="logo-wrapper">
+                    <img src="images/logos/edutechional.png" alt="">
+                </div>
+
+                <div class="subtitle">Women's Sportswear</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover', () => {
+                console.log(portfolioItem.childNodes[1].classList)
+                portfolioItem.childNodes[1].classList.add('image-blur');
+            });
+    
+            portfolioItem.addEventListener('mouseout', () => {
+                console.log(portfolioItem.childNodes[1].classList)
+                portfolioItem.childNodes[1].classList.remove('image-blur');
+            });
+        });
+    
+    </script>
+
+    <!--grid section ends-->
+</body>
+</html>
